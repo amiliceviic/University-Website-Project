@@ -1,0 +1,161 @@
+body{
+    margin: 0 1em 1em 1em;
+    background-color: rgba(4, 128, 128, 0.705);
+}
+
+#gornjimeni{
+    position: sticky;
+    top: 0px;
+    background: url("../img/wh.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 0 1em 0;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+    align-items: center;
+}
+
+#gornjimeni #lista{
+    list-style-type: none;  
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    text-align: center;
+    margin: 0px;
+    padding: 1vh 0 0 0;
+    width: 80vw;
+}
+
+#gornjimeni #kolica{
+    width: 1.5vw;
+    height: 1.5vw;
+    transition: 0.3s;
+}
+#gornjimeni #kolica:hover{
+    background-color: rgba(4, 128, 128, 0.705);
+}
+#gornjimeni #logo{
+    padding: 1vh 0 1vh 0;
+    width: 100px;
+    height: auto;
+}
+
+#gornjimeni li a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+#gornjimeni li a:hover{
+    color: rgba(4, 128, 128, 0.705);
+}
+
+#gornjimeni #hamburger{
+    display:none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    transition: all o.3s ease;
+    background-color: black;
+}
+
+#tekst{
+    background-size: cover;
+    background-image: url(../img/wh.jpg);
+    font-size: 2vh;
+    color: white;
+}
+
+.slika {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s; 
+}
+
+.slika:hover {
+    transform: scale(1.1);
+}
+
+@keyframes promena-boje {
+    0% {
+        color:  rgba(4, 128, 128, 0.705);
+    }
+    50% {
+        color: rgb(0, 0, 0);
+    }
+    100% {
+        color: rgb(0, 0, 0);
+    }
+}
+.tekst-animacija {
+    animation-name: promena-boje;
+    animation-duration: 3s;
+    animation-timing-function: ease; 
+    animation-iteration-count: infinite;
+}
+
+.element {
+    width: 100px;
+    height: 100px;
+    transition: border-radius 0.3s; 
+}
+
+.element:hover {
+    border-radius: 50%; 
+}
+
+@media(max-width:768px){
+    #gornjimeni{
+        height: 10vh;
+    }
+    #gornjimeni #hamburger{
+        display: block;
+    }
+    #hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+   #lista{
+        position: fixed;
+        left: -100%;
+        top: 10vh;
+        flex-direction: column;
+        gap: 0;
+        background-color: rgba(4, 128, 128, 0.705);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    #gornjimeni ul li{
+        margin: 16px;
+
+    }
+    #lista.active{
+        left: 0;
+    }
+    #slikaprodavnica{
+        width: 100%;
+        height: 200px;
+        margin: 40px 10px 10px 10px;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+}

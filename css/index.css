@@ -1,0 +1,170 @@
+body {
+    background-image: url(../img/pozadina.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0 1em 1em 1em;
+    align-content: flex-end;
+}
+
+.h1 {
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    color: aliceblue;
+
+}
+
+#gornjimeni{
+    position: sticky;
+
+    top: 0px;
+    background: url("../img/wh.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 0 1em 0;
+    height: fit-content;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#gornjimeni ul{
+    width: 80vw;
+    list-style-type: none;  
+    font-weight: bold;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    text-align: center;
+    margin: 0px;
+    padding: 1vh 0 0 0;
+}
+#gornjimeni #kolica{
+    width: 1.5vw;
+    height: 1.5vw;
+    transition: 0.3s;
+}
+#gornjimeni #logo{
+    padding: 1vh 0 1vh 0;
+    width: 100px;
+    height: auto;
+}
+#gornjimeni #kolica:hover{
+    background-color:rgb(117, 10, 10);
+}
+#gornjimeni li a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+#gornjimeni li a:hover{
+    color: rgba(4, 128, 128, 0.705);
+}
+#gornjimeni #hamburger{
+    display:none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    transition: all o.3s ease;
+    background-color: black;
+}
+
+
+@media(max-width:768px){
+
+    #gornjimeni{
+        height: 10vh;
+    }
+   #gornjimeni #hamburger{
+        display: block;
+        padding-top: 1vh;
+    }
+    #hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    #hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    #hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    #lista{
+        position: fixed;
+        left: -100%;
+        top: 10vh;
+        flex-direction: column;
+        gap: 0;
+        background-color: rgba(4, 128, 128, 0.705);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    #gornjimeni ul li{
+        margin: 16px;
+
+    }
+    #lista.active{
+        left: 0;
+    }
+    body{
+        max-width: 100%;
+        max-height: 100%;
+        font-size: 100%;
+        flex-direction: column;
+        background-size: 120% 120%;
+    }
+    .h1{
+        max-width: 100%;
+        font-size: 100px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width: 500px){
+    .h1{
+        max-width: 100%;
+        font-size: 50px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    body{
+        background-size: 130% 130%;
+    }
+
+}
+
+
+
+
+a:link {
+    color: azure;
+    text-decoration: none;
+
+}

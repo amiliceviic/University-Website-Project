@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sve o formuli 1"> 
+    <meta name="keywords" content="formula 1, trke"> 
+    <title>Formula 1</title> 
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <nav id="gornjimeni">
+        <a href="index.html"><img id="logo" src="img/f1.png" alt="a" class="element"></a>
+        <ul id="lista">
+            <li><a href="pocetna.html">MENU</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="cart.html"><img id="kolica" src="img/cart.png" alt="REZERVACIJA"></a></li>
+        </ul>
+            </ul>
+            <div id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+    </nav>
+   
+    <div id="main">
+        <h1 id="naslov">Ulogujte se i da bi nastavili kupovinu!</h1>
+        <form id="forma">
+            <input type="text" name="username" id="username" class="polje" placeholder="Unesite korisnicko ime">
+            <input type="password" name="pass" id="pass" class="polje" placeholder="Unesite sifru">
+            <button id="dugme" class="zaobljeno-dugme" onclick="ispisi()">Log In</button>
+            <div>
+                <input type="radio" name="velicina" id="xs" class="radio">
+                <label for="dvanest" class="labela">XS</label><br>
+                <input type="radio" name="velicina" id="s" class="radio">
+                <label for="cetrnest" class="labela">S</label><br>
+                <input type="radio" name="velicina" id="m" class="radio">
+                <label for="sesnest" class="labela">M</label>
+                <input type="radio" name="velicina" id="l" class="radio">
+                <label for="osamnest" class="labela">L</label><br>
+                <input type="radio" name="velicina" id="xl" class="radio">
+                <label for="dvadeset" class="labela">XL</label><br>
+            </div>
+            <select name="velicina" id="velicina">
+                <option value="s">1</option>
+                <option value="m">2</option>
+                <option value="l">3</option>
+                <option value="xl">4</option>
+                <option value="xl">5</option>
+                <option value="placeholder" selected disabled>Odaberi količinu</option>
+            </select>
+            <button id="dugme" class="zaobljeno-dugme" onclick="ispisi()">nastavi kupovinu</button>
+       </form>
+       <img src="img/f1.png" class="slika-animacija" style="width: auto; height: auto;"  >
+    </div>
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
