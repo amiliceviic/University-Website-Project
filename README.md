@@ -30,7 +30,6 @@
     - [Prerequisites](#-prerequisites)
     - [Installation](#-installation)
     - [Usage](#-usage)
-    - [Testing](#-testing)
 - [Features](#-features)
 
 ---
@@ -49,37 +48,6 @@ This project aims to enhance user engagement through informative content and int
 - 🛒 **E-commerce Functionality:** Facilitates a smooth shopping experience with a cart and login interface.
 - 🎨 **Cohesive Visual Presentation:** Utilizes well-structured stylesheets for an engaging and aesthetically pleasing interface.
 - 🔄 **Interactive Elements:** Enhances navigation and user interaction, making the application intuitive and responsive.
-
----
-
-## 📌 Features
-
-|      | Component       | Details                              |
-| :--- | :-------------- | :----------------------------------- |
-| ⚙️  | **Architecture**  | <ul><li>Single-page application (SPA)</li><li>Responsive design using CSS Flexbox</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>Consistent coding style</li><li>Use of ES6+ features (e.g., arrow functions)</li></ul> |
-| 📄 | **Documentation** | <ul><li>Basic README file present</li><li>No extensive inline comments</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>Integration with third-party libraries (e.g., jQuery)</li><li>API calls for dynamic content loading</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Separation of concerns (HTML, CSS, JS files)</li><li>Reusable components for UI elements</li></ul> |
-| 🧪 | **Testing**       | <ul><li>No formal testing framework implemented</li><li>Manual testing recommended</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>Optimized image loading</li><li>Minified CSS and JS files for faster load times</li></ul> |
-| 🛡️ | **Security**      | <ul><li>Basic input validation</li><li>No advanced security measures (e.g., XSS protection)</li></ul> |
-| 📦 | **Dependencies**  | <ul><li>JavaScript, CSS, HTML</li><li>No package manager used</li></ul> |
-| 🚀 | **Scalability**   | <ul><li>Static content can be easily scaled</li><li>Potential for backend integration for dynamic scaling</li></ul> |
-
-
-### Explanation of the Table Components:
-
-- **Architecture:** The project is structured as a single-page application, ensuring a smooth user experience with responsive design principles.
-- **Code Quality:** The code adheres to modern JavaScript standards, promoting readability and maintainability.
-- **Documentation:** While there is a README, it lacks comprehensive documentation, which could be improved for better onboarding.
-- **Integrations:** The project utilizes third-party libraries for enhanced functionality, indicating a reliance on external resources.
-- **Modularity:** The separation of HTML, CSS, and JavaScript files allows for easier maintenance and updates.
-- **Testing:** The absence of a formal testing framework suggests a need for improvement in quality assurance practices.
-- **Performance:** Performance optimizations are in place, such as image loading strategies and file minification.
-- **Security:** Basic security practices are noted, but there is room for enhancement to protect against common vulnerabilities.
-- **Dependencies:** The project relies on core web technologies without a package manager, which may limit dependency management.
-- **Scalability:** The static nature of the content allows for straightforward scaling, with potential for future backend integration.
 
 ---
 
@@ -116,12 +84,6 @@ echo 'INSERT-INSTALL-COMMAND-HERE'
 Run the project with:
 
 echo 'INSERT-RUN-COMMAND-HERE'
-
-### 🧪 Testing
-
-University-website-project uses the {__test_framework__} test framework. Run the test suite with:
-
-echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
