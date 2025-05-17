@@ -36,7 +36,7 @@
 
 ## ✨ Overview
 
-The **University-Website-Project** is a dynamic web application that immerses users in the thrilling world of Formula 1 racing while providing a seamless e-commerce experience for merchandise shopping.
+The **University-Website-Project** is a static web application that immerses users in the thrilling world of Formula 1 racing while providing a seamless e-commerce experience for merchandise shopping.
 
 **Why University-Website-Project?**
 
