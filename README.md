@@ -2,7 +2,6 @@
 
 <div align="center">
 
-
 # UNIVERSITY-WEBSITE-PROJECT
 
 <em>Experience Formula 1: Shop, Learn, Engage Today!</em>
