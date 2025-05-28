@@ -7,7 +7,6 @@
 
 <em>Experience Formula 1: Shop, Learn, Engage Today!</em>
 
-<!-- BADGES -->
 <img src="https://img.shields.io/github/last-commit/amiliceviic/University-Website-Project?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 <img src="https://img.shields.io/github/languages/top/amiliceviic/University-Website-Project?style=flat&color=0080ff" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/amiliceviic/University-Website-Project?style=flat&color=0080ff" alt="repo-language-count">
